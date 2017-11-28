@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+body {
+    background: #f8f8ff;
+}
+
+
+/* Urządzenia mobilne */
+@media only screen and (max-width: 800px) {
+	body {
+		background: #4caf50;
+	}
+	
+	.tresc, .tresc-alt {
+		width: 100%;
+		height: 100%;
+		min-height: 100%;
+		top: 0;
+		left: 0;
+		padding-top: 20px;
+	}
+	
+	.zielony {
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+	}
+}
+
+
+/* Urządzenia o dużych ekranach */
+@media only screen and (min-width: 801px) {
+	.tresc {
+		max-width: 800px;
+		min-width: 400px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-right: -50%;
+		transform: translate(-50%, -50%);
+		border-radius: 15px;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	}
+	
+	.tresc-alt {
+		max-width: 800px;
+		min-width: 400px;
+		margin: 0 auto;
+		border-radius: 15px;
+		box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);]
+		
+	}
+	
+	header h1 {
+		padding-top: 20px;
+	}
+	
+	.zielony {
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+	}
+}
+
+
+/* Nagłówek i pasek nawigacji */
+header h1 {
+	font-size: 52px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 0px 5px;
+	margin: 8px 3px;
+}
+
+nav a {
+	padding: 10px 15px;
+	border: 0px;
+	background: #ffffff;
+}
+
+nav a:hover, nav a:active {
+	background: #d3d3d3;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+header, nav ul {
+	text-align: center;
+}
+
+
+/* Treść zwykła */
+.tresc, .tresc-alt {
+	background-color: #ffffff;
+	font-size: 20px;
+}
+.tresc p, .tresc-alt p {
+	font-family: "Quicksand", sans-serif;
+}
+
+.margines {
+	padding: 20px;
+	padding-bottom: 20px;
+}
+
+
+/* Treść na zielonym tle */
+.zielony {
+	color: #ffffff;
+	padding: 20px;
+	text-align: center;
+	background-color: #4caf50;
+	box-shadow: 0px -10px 15px rgba(0,0,0,0.22);
+}
+
+.zielony-link {
+	padding: 20px 0;
+}
+
+.zmniejsz {
+	display: block;
+	max-width: 600px;
+	text-align: justify;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+.link-do-edytora {
+	font-size: 36px;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.link-do-edytora:hover, .link-do-edytora:active {
+	font-size: 36px;
+	color: #9e9e9e;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+
+/* Stopka */
+footer {
+	padding-top: 30px;
+	text-align: left;
+	font-size: 16px;
+}

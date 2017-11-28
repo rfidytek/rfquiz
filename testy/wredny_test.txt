@@ -1,0 +1,24 @@
+﻿Dobrze
+
+(Język C) Która z poniższych dyrektyw dołącza plik nagłówkowy, w którym znajduje się definicja funkcji scanf?
+1|#include "stdio.h"
+1|#include <stdio.h>
+0|#include <stdlib.h>
+0|#include <math.h>
+0|#include <iostream.h>
+0|#include <string.h>
+0|#include <assert.h>
+
+
+Źle
+
+Ile to jest 2+2?
+101%|IV
+100%|4
+
+(Język C) Która z poniższych dyrektyw dołącza plik nagłówkowy, w którym znajduje się definicja funkcji scanf?
+0|#include <stdlib.h>
+0|#include <math.h>
+0|#include <iostream.h>
+0|#include <string.h>
+0|#include <assert.h>

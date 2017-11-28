@@ -1,0 +1,38 @@
+Instrukcja
+
+Wskaż najdłuższą rzekę w Polsce.
+1|Wisła
+0|Odra
+0|Dunaj
+0|Warta
+
+Wskaż polskie rzeki.
+1|Wisła
+0|Nil
+1|Odra
+0|Tamiza
+
+Wskaż najdłuższą rzekę w Polsce.
+0|Warta
+1|Wisła
+0|Odra
+0|Dunaj
+
+1|Najdłuższa polska rzeka to Wisła.
+
+Jakie miasto jest stolicą Polski?
+100%|Warszawa
+80%|Wwa
+80%|W-wa
+10%|W
+
+Dopasuj liczebniki główne.
+thirteen|13
+fourteen|14
+fifteen|15
+sixteen|16
+seventeen|17
+eighteen|18
+nineteen|19
+
+Książkę pt. "Krzyżacy" napisał |Henryk Sienkiewicz|Adam Mickiewicz|Juliusz Słowacki|Jan Długosz|Jan Matejko|. Jest to powieść |historyczna|przygodowa|fantasy|podróżnicza|epistolarna|. Główny bohater to |Zbyszko| z Bogdańca herbu |Tępa Podkowa|, bratanek Maćka z Bogdańca.

@@ -1,0 +1,253 @@
+﻿C_wyklad_01_pyt_01
+
+(Język C) Która z poniższych dyrektyw dołącza plik nagłówkowy, w którym znajduje się definicja funkcji scanf?
+1|#include "stdio.h"
+1|#include <stdio.h>
+0|#include <stdlib.h>
+0|#include <math.h>
+0|#include <iostream.h>
+0|#include <string.h>
+0|#include <assert.h>
+
+(Język C) Jak się nazywa dyrektywa umożliwiająca dołączenie tekstu zawartego w pliku.
+0|#define
+1|#include
+0|#pragma
+0|#undef
+0|#if
+
+(Język C) W którym roku Dennis Ritchie stworzył język C?
+1|1972 r.
+0|1966 r.
+0|1969 r.
+0|1991 r.
+0|1983 r.
+
+(Język C) W języku C łańcuchy znaków mogą zawierać znaki specjalne. Dopasuj znak specjalny do znaczenia.
+alarm (sygnał akustyczny terminala)|'\a'
+backspace (usuwa poprzedzający znak)|'\b'
+wysuniecie strony (np. w drukarce)|'\f'
+powrót kursora (karetki) do początku wiersza|'\r'
+znak nowego wiersza|'\n'
+cudzysłów|'\"'
+apostrof|'\''
+ukośnik wsteczny (backslash)|'\\'
+tabulacja pozioma|'\t'
+tabulacja pionowa|'\v'
+znak zapytania (pytajnik)|'\?'
+
+
+(Język C) Która z poniższych instrukcji utworzy stałą PI?
+1|#define PI 3.1495
+1|const double PI = 3.1415;
+0|#define PI 3.1495;
+0|constant double PI = 3.1415;
+0|const PI = 3.1415;
+
+
+(Język C) Dopasuj kody formatujące do typów danych.
+char|%c
+short|%hd
+int|%d
+long|%ld
+long long|%lld
+float|%f
+double|%lf
+long double|%Lf
+string|%s
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  double a=1, b=3;
+  printf("*%.2lf*",a/b);[/kod]
+100%|*0.33*
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=1, b=3;
+  printf("*%d*",a/b);[/kod]
+100%|*0*
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=1, b=3;
+  printf("*%2d*",a/b);[/kod]
+100%|* 0*
+
+C_wyklad_01_pyt_02
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a<<2);[/kod]
+100%|52
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a>>2);[/kod]
+100%|3
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a&2);[/kod]
+100%|0
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a\|2);[/kod]
+100%|15
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%x",a\|2);[/kod]
+100%|f
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%o",a\|2);[/kod]
+100%|17
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a^2);[/kod]
+100%|15
+
+C_wyklad_01_pyt_03
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a%2);[/kod]
+100%|1
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a/2);[/kod]
+100%|6
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a++);[/kod]
+100%|13
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",++a);[/kod]
+100%|14
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",a--);[/kod]
+100%|13
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",--a);[/kod]
+100%|12
+
+(Język C) Co należy wpisać w miejsce kropek, aby móc pobrać wartość zmiennej a z klawiatury?
+[kod]  int a=13;
+  scanf("%d",..........);[/kod]
+100%|&a
+
+C_wyklad_01_pyt_04
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=2;
+  printf("%d",(a%2!=0)?a:-a);[/kod]
+100%|-2
+
+1|(Język C) Klauzula default w instrukcji switch jest opcjonalna.
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższego kodu programu?
+[kod]  switch(1) {
+    case 1: printf("a");
+    case 2: printf("b");
+    case 3: printf("c");
+    default: printf("z");
+  }[/kod]
+100%|abcz
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższego kodu programu?
+[kod]  int a=2;
+  if(a>2); printf("a");
+  if(a>3); printf("b");
+  printf("c");[/kod]
+100%|abc
+
+
+C_wyklad_01_pyt_05
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  int a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|4
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  short int a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|2
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  short a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|2
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  long int a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|4
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  long a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|4
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  long long int a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|8
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  long long a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|8
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  float a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|4
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  double a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|8
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  long double a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|12
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  char a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|1
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  unsigned char a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|1
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  signed char a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|1
+
+(Język C) Co zostanie wypisane na ekranie po wykonaniu poniższych instrukcji?
+[kod]  unsigned long long int a=13;
+  printf("%d",sizeof(a));[/kod]
+100%|8
+
+
+
+
+
+
+
+
+

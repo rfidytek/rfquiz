@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.tresc-konwerter {
+	font-size: 16px !important;
+}
+
+
+/* Formatowanie przycisków zakładek */
+ul, menu, dir {
+    -webkit-padding-start: 0px;
+}
+
+.zakladki {
+	list-style: none;
+}
+
+.zakladki li {
+	display: inline;
+}
+
+.zakladki li a {
+	color: black;
+	float: left;
+	display: block;
+	padding: 4px 10px;
+	margin-left: -1px;
+	background: #ffffff;
+	text-decoration: none;
+	border: 1px solid #ccc;
+}
+
+.zakladki li a:hover {
+	background: #ccc;
+}
+
+.grupa:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+/* Pole pojedynczej zakładki */
+.wnetrze {
+	position: relative;
+	min-height: 450px;
+}
+
+
+.pole-zakladki div div {
+	background: white;
+	min-height: 450px;
+	position: absolute;
+	width: 100%;
+}
+
+#upload {
+	display: table;
+}
+
+#wpisz:target, #upload:target {
+  z-index: 1;
+}
+
+
+/* Textarea */
+#tresc {
+	width: 100%;
+	min-height: 350px;
+	font-size: 16px;
+	font-family: "Source-Code-Pro", monospace;
+	resize: none;
+}
+
+
+/* Przyciski */
+input[type=submit], button {
+	border-width: 0;
+	padding: 5px 10px;
+	background-color: #4caf50;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+input[type=submit]:hover, button:hover {
+	background-color: #95d097;
+}
+
+
+/* Treść pudła #upload */
+#upload {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#upload form {
+	margin: 0 auto;
+	max-width: 350px;
+}
+
+@media only screen and (min-width: 801px) {
+	#upload form {
+		padding-top: 100px;
+	}
+}

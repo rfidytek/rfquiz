@@ -1,0 +1,36 @@
+﻿Różne
+
+Wskaż najdłuższą rzekę w Polsce.
+1|Wisła
+0|Odra
+0|Dunaj
+0|Warta
+
+Ciałem fizycznym nie jest
+0|spadający kamień
+0|człowiek jadący na rolkach
+1|błyskawica
+0|odważnik na wadze szalkowej
+
+Wskaż substancje, które nie zawierają wody.
+1|Olej
+0|Mleko
+1|Benzyna
+0|Sok pomarańczowy
+
+1|Do regulowania jasności świecenia żarówki można wykorzystać prawo Ohma.
+
+Jakie miasto jest stolicą Polski?
+100%|Warszawa
+80%|Wwa
+80%|W-wa
+10%|W
+
+Dopasuj liczebniki główne.
+thirteen|13
+fourteen|14
+fifteen|15
+sixteen|16
+seventeen|17
+eighteen|18
+nineteen|19
